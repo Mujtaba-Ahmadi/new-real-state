@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- links -->
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Buy Property</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <p class="subtitle">Find your dream home.</p>
+        <a href="tel:0780929239" class="phone-link"><i class="fa-solid fa-phone"></i> Call us</a>
+    </header>
+
+    <!-- hero section -->
+    <section class="showcase">
+      <nav class="navbar">
+        <ul class="nav-ul">
+          <li class="nav-item">
+            <a href="#" class="nav-link">buy<i class="fa-solid fa-caret-down"></i> </a>
+            <ul class="dropdown">
+              <li><a href="buy-property.html" class="dropdown-link">Buy Property</a></li>
+              <li><a href="buy land.html" class="dropdown-link">Buy Land</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Sell<i class="fa-solid fa-caret-down"></i> </a>
+            <ul class="dropdown">
+              <li><a href="#" class="dropdown-link">Sell Property</a></li>
+              <li><a href="#" class="dropdown-link">Sell Land</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Rent<i class="fa-solid fa-caret-down"></i> </a>
+            <ul class="dropdown">
+              <li><a href="#" class="dropdown-link">House</a></li>
+              <li><a href="#" class="dropdown-link">Appartment</a></li>
+              <li><a href="#" class="dropdown-link">Shop</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <video src="asset/video/New luxury house 2025 _ luxury homes design @Yt__sorth.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+          <h1>Buy the most luxurious homes from us</h1>
+          <p>
+              We help you buy the best homes in the best locations at low prices.
+          </p>
+          <button>join us</button>
+      </div>
+    </section> 
+
+    <section class="my-search-section" aria-label="Property Search">
+        <h2>Find Your Dream Property</h2>
+        <form action="/search-results" method="GET" class="search-form" aria-describedby="search-description" role="search">
+          <select name="location" required aria-label="Select Location">
+            <option value="" disabled selected>Select Location</option>
+            <option value="city1">City 1</option>
+            <option value="city2">City 2</option>
+            <option value="city3">City 3</option>
+          </select>
+      
+          <select name="property_type" required aria-label="Select Property Type">
+            <option value="" disabled selected>Property Type</option>
+            <option value="land">Land</option>
+            <option value="house">House</option>
+            <option value="apartment">Apartment</option>
+          </select>
+      
+          <select name="min_price" required aria-label="Select Minimum Price">
+            <option value="" disabled selected>Min Price</option>
+            <option value="50000">$50,000</option>
+            <option value="100000">$100,000</option>
+            <option value="200000">$200,000</option>
+          </select>
+      
+          <select name="max_price" required aria-label="Select Maximum Price">
+            <option value="" disabled selected>Max Price</option>
+            <option value="300000">$300,000</option>
+            <option value="500000">$500,000</option>
+            <option value="1000000">$1,000,000</option>
+          </select>
+      
+          <select name="area" required aria-label="Select Area">
+            <option value="" disabled selected>Area (sqm)</option>
+            <option value="100">100+</option>
+            <option value="200">200+</option>
+            <option value="500">500+</option>
+          </select>
+      
+          <select name="security" required aria-label="Select Security Level">
+            <option value="" disabled selected>Security Level</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+      
+          <button type="submit" aria-label="Search Properties">Search 🔍</button>
+        </form>
+      </section>
+
+    <!-- Property listing -->
+    <section class="property-listing">
+        <h2>Homes for Sale</h2>
+        <div class="property-container">
+            <div class="property-item house">
+                <img src="asset/img/img (1).jfif" alt="Property 3" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Monte Carlo</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+            <div class="property-item flat">
+                <img src="asset/img/img (1).jpg" alt="Property 1" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Mayfair</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+            <div class="property-item villa">
+                <img src="asset/img/img (2).jpg" alt="Property 2" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Beverly Hills</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+        </div>
+        <div class="property-container">
+            <div class="property-item house">
+                <img src="asset/img/img (2).jpg" alt="Property 3" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>St. Moritz</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+            <div class="property-item flat">
+                <img src="asset/img/img (1).jpg" alt="Property 1" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Dubai Marina</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+            <div class="property-item villa">
+                <img src="asset/img/img (1).jfif" alt="Property 2" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Pacific Palisades</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+        </div>
+        <div class="property-container">
+            <div class="property-item house">
+                <img src="asset/img/img (1).jpg" alt="Property 3" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Capri</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+            <div class="property-item flat">
+                <img src="asset/img/img (1).jfif" alt="Property 1" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Antibes</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+            <div class="property-item villa">
+                <img src="asset/img/img (2).jpg" alt="Property 2" />
+                <a href="#"><i class="fa-solid fa-location-dot"></i>Montreux</a>
+                <h3>Big and modern luxury house</h3>
+                <button>More details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services section added from first code -->
+    <section class="our-services">
+      <h2>Our Services</h2>
+      <div class="services-container">
+        <div class="service-card">
+          <i class="fa-solid fa-search"></i>
+          <h3>Find Property</h3>
+          <p>We help you find the best properties.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-dollar-sign"></i>
+          <h3>Best Prices</h3>
+          <p>Competitive pricing on all listings.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-building"></i>
+          <h3>Expert Advice</h3>
+          <p>Professional guidance through buying process.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-phone"></i>
+          <h3>24/7 Support</h3>
+          <p>We're here to help anytime.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ section added from first code -->
+    <section class="faq-section" aria-label="Frequently Asked Questions">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <button aria-expanded="false" aria-controls="faq1" class="faq-question" id="faq1-btn">What documents are needed to buy a property?</button>
+        <div id="faq1" role="region" aria-labelledby="faq1-btn" class="faq-answer" hidden>
+          <p>You need a valid ID, proof of income, and the sales agreement.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button aria-expanded="false" aria-controls="faq2" class="faq-question" id="faq2-btn">How long does the buying process take?</button>
+        <div id="faq2" role="region" aria-labelledby="faq2-btn" class="faq-answer" hidden>
+          <p>Typically, it takes between 30 to 60 days depending on the location and paperwork.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button aria-expanded="false" aria-controls="faq3" class="faq-question" id="faq3-btn">Can I negotiate the price?</button>
+        <div id="faq3" role="region" aria-labelledby="faq3-btn" class="faq-answer" hidden>
+          <p>Yes, price negotiations are possible in most cases.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p>All rights reserved to Rahnama Office © 2025</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="asset/js/main.js"></script>
+
+    <script>
+     // FAQ toggle logic
+      document.querySelectorAll('.faq-question').forEach(button => {
+        button.addEventListener('click', () => {
+          const expanded = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', !expanded);
+          const answer = document.getElementById(button.getAttribute('aria-controls'));
+          if (!expanded) {
+            answer.hidden = false;
+          } else {
+            answer.hidden = true;
+          }
+        });
+      });
+    </script>
+</body>
+</html>
