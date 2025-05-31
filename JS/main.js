@@ -34,7 +34,7 @@
         delay: 1000,
         duration: 1500,
         easing:'ease-in-out',
-        origin:"top",
+        origin:"bottom",
         distance:'40px'
 
     });
