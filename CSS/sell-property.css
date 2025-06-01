@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+/* Header Start */
+.header {
+    width: 100%;
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    z-index: 1000;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    
+
+}
+
+.fa-house {
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+
+/* Header end */
