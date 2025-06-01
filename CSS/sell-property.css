@@ -259,29 +259,16 @@ body {
 /* Services section end */
 
 .property-listing {
-    padding: 100px 0;
+    padding: 10px;
     background-color: #fff;
 }
 .property-listing h2 {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 8px;
+    padding: 15px;
+
 }
 
-.property-item button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin: 15px 0;
-    
-}
-
-.property-item button:hover {
-    background-color: #555;
-}
 .property-listing .property-container {
     display: flex;
     justify-content: space-around;
@@ -299,7 +286,11 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
+.teim-img{
+    border-radius: 50% !important;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
+}
 /* .property-listing button {
     all: unset;
     padding: 10px 20px;
@@ -307,33 +298,9 @@ body {
     color: #fff;
     text-align: center;
 } */
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-}
 
-.btn button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
 
-.btn button:hover {
-    background-color: #555;
-    color: #fff;
-}
 
-.property-item a {
-    text-decoration: none;
-    color: #333;
-    
-}
 
 .fa-location-dot {
     margin-bottom: 10px;
