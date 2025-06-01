@@ -13,12 +13,12 @@ body {
 /* Header Start */
 .header {
     width: 100%;
-    background-color: #333;
+    background-color: 313131;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: #fff;
+    color: #ffffff;
     z-index: 1000;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .nav-ul a {
-    color: #fff;
+    color: #f7f5f5;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3rem;
