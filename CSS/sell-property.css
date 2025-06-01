@@ -265,19 +265,22 @@ body {
 .property-listing h2 {
     text-align: center;
     margin: 8px;
-    padding: 15px;
-
+    padding: 15px !important;
+    
 }
-
+.property-h2{
+    text-align: center;
+    margin-top: 10px !important;
+}
 .property-listing .property-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding:  20px;
 }
 .property-listing .property-item {
     width: 300px;
-    background-color: #f0f0f0;
+    background-color: #fff;
     border: 1px solid #eee;
     border-radius: 5px;
     /* padding: 20px; */
@@ -286,11 +289,8 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
-.teim-img{
-    border-radius: 50% !important;
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-}
+
 /* .property-listing button {
     all: unset;
     padding: 10px 20px;
@@ -317,5 +317,24 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 5px;
+}
+.teim-img{
+    border-radius: 50% !important;
+    height: 100px !important;
+    width: 100px !important;
+    margin-left: 200px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     margin-top: 20px;
+
+}
+.property-h3{
+    text-align: center !important;
+    padding-bottom: 10px;
+}
+.property-h2{
+    text-align: center;
+    margin-top: 10px !important;
+    padding: 10px;
+
 }
 /* end */
